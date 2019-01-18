@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+#result {
+  display: none;
+}
+
+#result p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.question1, .question2, .question3, .question4, .question5 {
+  font-weight: bold;
+}
