@@ -1,5 +1,30 @@
 body {
   text-align: center;
+  color: black;
+}
+
+#backgroundImage {
+  background-image: url("../img/programming.jpg");
+  background-size: 100% 100%;
+  min-height: 600px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div.container {
+  background-color: #D4D1CB;
+  color: black;
+  width: 53%;
+  min-height: 600px;
+  padding-bottom: 70px;
+  -webkit-box-shadow: 10px 10px 10px 0px #999999;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#surveyTitle {
+  font-weight: bold;
 }
 
 #result {
@@ -11,6 +36,6 @@ body {
   font-weight: bold;
 }
 
-.question1, .question2, .question3, .question4, .question5 {
+.question1, .question2, .question3, .question4, .question5, .question6 {
   font-weight: bold;
 }

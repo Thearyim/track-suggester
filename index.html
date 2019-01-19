@@ -8,14 +8,15 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container" >
-      <h1 class="well">Track Suggester</h1>
-      <div id="tracker">
-        <h2>Have you ever wondered what kind of developer you are?</h2>
-        <p>The software development landscape changes constantly. There isn't an official industry glossary of terms. Understanding the skills that each type of developer needs to have is confusing to newcomers, and can be intimidating to non-technical people. Wouldn't it be nice to have quiz to determine the type of developer will fits you most? Answer the following questions and see for yourself!</p>
+    <div id="backgroundImage">
+      <div class="container">
+        <h1 id="surveyTitle">Track Suggester</h1>
+        <div id="tracker">
+          <h4>Have you ever wondered what kind of developer you are?</h4>
+          <p>The software development landscape changes constantly. There isn't an official industry glossary of terms. Understanding the skills that each type of developer needs to have is confusing to newcomers, and can be intimidating to non-technical people. Wouldn't it be nice to have quiz to determine the type of developer will fits you most? Answer the following questions and see for yourself!</p>
           <form id="trackerForm">
               <div class="question1">
-                <p>Do you like the idea of working for a larger compay on business software?</p>
+                <p>Does the idea of working in a cloud computing architecture interest you?</p>
                 <div class="radio">
                   <label>
                     <input type="radio" name="question1-answer" value="yes" required>
@@ -26,13 +27,12 @@
                 <div class="radio">
                   <label>
                     <input type="radio" name="question1-answer" value="no" required>
-                    No
+                    No&nbsp;
                   </label>
                 </div>
               </div>
-
-                <div class="question2">
-                  <p>Are you interested in working for an enterprise-level company, as an Android developer, or in a high-performance applicaions?</p>
+              <div class="question2">
+                <p>Do you imagine yourself doing mobile device development (e.g. Android, IOS devices)?</p>
                 <div class="radio">
                   <label>
                     <input type="radio" name="question2-answer" value="yes" required>
@@ -42,64 +42,82 @@
                 <div class="radio">
                   <label>
                     <input type="radio" name="question2-answer" value="no" required>
-                    No
+                    No&nbsp;
                   </label>
                 </div>
+              </div>
+              <div class="question3">
+                <p>Do you like the idea of being the face of the business?</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3-answer" value="yes" required>
+                    Yes
+                  </label>
                 </div>
-                <div class="question3">
-                  <p>Do you like the idea of building out small sites for brands, businesses and organizations?</p>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="question3-answer" value="yes" required>
-                      Yes
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="question3-answer" value="no" required>
-                      No
-                    </label>
-                  </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question3-answer" value="no" required>
+                    No&nbsp;
+                  </label>
                 </div>
-                <div class="question4">
-                  <p>Do you care more about the look of a Ferrari than its engine?</p>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="question4-answer" value="yes" required>
-                      Yes
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="question4-answer" value="no" required>
-                      No
-                    </label>
-                  </div>
+              </div>
+              <div class="question4">
+                <p>Do you get more excited about the look of a Ferrari than the engine inside?</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4-answer" value="yes" required>
+                    Yes
+                  </label>
                 </div>
-                <div class="question5">
-                  <p>Do you want a caree that allows you the flexibility of working remotely?</p>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="question5-answer" value="yes" required>
-                      Yes
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label>
-                      <input type="radio" name="question5-answer" value="no" required>
-                      No
-                    </label>
-                  </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question4-answer" value="no" required>
+                    No&nbsp;
+                  </label>
                 </div>
-            <button id="submitBtn" type="submit" class="btn btn-info">Tell me who I am!</button>
+              </div>
+              <div class="question5">
+                <p>Does the idea of working with complex systems of hybrid technologies excite you?</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5-answer" value="yes" required>
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question5-answer" value="no" required>
+                    No&nbsp;
+                  </label>
+                </div>
+              </div>
+              <div class="question6">
+                <p>Do you really enjoy designing the way application look?</p>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question6-answer" value="yes" required>
+                    Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question6-answer" value="no" required>
+                    No&nbsp;
+                  </label>
+                </div>
+              </div>
+              <button id="submitBtn" type="submit" class="btn btn-info">Tell me who I am!</button>
           </form>
-        </div>
+          </div>
             <div id="result">
-              <h2>You might be </h2>
-              <p><span id="output"></span></p>
-            <button id="refreshPage" type="button" class="btn btn-success">Go Back</buttton>
+              <p>
+                <span id="output"></span>
+                <div id="outputImage">
+                </div>
+              </p>
+              <button id="refreshPage" type="button" class="btn btn-success">Go Back</buttton>
             </div>
+        </div>
       </div>
-    </div>
   </body>
 </html>
