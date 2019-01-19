@@ -1,6 +1,6 @@
 # _Track Suggester_
 
-#### _Track Suggesterz 01/18/2019_
+#### _Track Suggester 01/18/2019_
 
 #### By _**Theary Im**_
 
@@ -8,10 +8,10 @@
 
 _This is a website that allows you to take quiz what kind of developer you are._
 
-## Support and contact details
+## Repo details
 * Install Git:  https://git-scm.com/downloads
 * _Clone repository by using "git clone https://github.com/Thearyim/track-Suggester"_
-* _Navigate to "Portfolio" directory_
+* _Navigate to "track-suggester" directory_
 * _Open in Atom or preferred text editor_
 
 ## Known Bugs
