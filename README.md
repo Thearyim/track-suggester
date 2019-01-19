@@ -14,9 +14,6 @@ _This is a website that allows you to take quiz what kind of developer you are._
 * _Navigate to "Portfolio" directory_
 * _Open in Atom or preferred text editor_
 
-## View My Webpage Here
-https://thearyim.github.io/track-Suggester/
-
 ## Known Bugs
 _Currently no known bugs._
 
